@@ -53,7 +53,7 @@
 				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Height/Width[ ]   </a></li>
 				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Box Model	[ ]   </a></li>					
 				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Outline		[ ]   </a></li>	
-				<li><a href='{{ route('CssText') }}'><i class='fa fa-angle-double-right'></i> CSS Text		[saya]   </a></li>	
+				<li><a href="{{ route('CssText') }}"><i class='fa fa-angle-double-right'></i> CSS Text		[saya]   </a></li>	
                                                                                                 
 		</ul>                                                                                  
 	</li><li class='treeview'><a href='#'><i class='fa fa-pagelines'></i><span>Tutorial JavaScript</span><i class='fa fa-angle-left pull-right'></i></a> 
@@ -103,7 +103,7 @@
 				</li><li>
 					<a href='?module=JS Array Iteration'><i class='fa fa-angle-double-right'></i>JS Array Iteration[    ]</a>
 				</li><li>
-					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'>			</i>JS Syntax		[   ]</a>
+					<a href="{{ route('htmlintro') }}"><i class='fa fa-angle-double-right'></i>JS Rizki [  MUHAMMAD NUR RIZKI ]</a>
 				</li><li>
 					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax</a>
 				</li><li>
