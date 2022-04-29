@@ -29,8 +29,11 @@ Route::prefix('admin')->group(function () {
 	Route::get('/CssText_next', 'CssTextController@index_next')->name('CssText_next');
     
 
-    Route::get('/jsIntroduction', 'JsintroController@index')->name('jsintro');
-    Route::get('/jsIntroduction_next', 'JsintroController@index_next')->name('jsintro_next');
+    Route::get('/jsintro', 'JsintroController@index')->name('jsintro');
+    Route::get('/jsintro_next', 'JsintroController@index')->name('jsintro_next');
+
+    Route::get('/rizki', 'RizkiController@rizki')->name('rizki');
+    Route::get('/rizki_next', 'RizkiController@rizki')->name('rizki_next');
   
 
 });
